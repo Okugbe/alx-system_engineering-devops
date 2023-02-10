@@ -1,1 +1,1 @@
-First Read me shell, permission
+First read me for shell permission
