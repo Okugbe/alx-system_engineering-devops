@@ -2,8 +2,8 @@
 # This script displays the content of the current directory in list format
 # Only displays the part of the name after the first dash
 
-filelist=$(ls)
+mylist=$(ls)
 
-for item in $filelist; do
-  echo "$item" | cut -d '-' -f2
+for i in $mylist; do
+  echo "$i" | cut -d '-' -f2
 done
