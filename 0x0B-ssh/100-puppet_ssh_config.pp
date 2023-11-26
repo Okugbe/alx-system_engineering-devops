@@ -10,4 +10,3 @@ file_line { 'Turn off passwd auth':
   line    => '    PasswordAuthentication no',
   replace => true,
 }
-
